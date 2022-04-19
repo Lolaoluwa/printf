@@ -28,7 +28,10 @@ conver_t f_list[] = {
 va_list arg_list;
 if (format == NULL)
 return (-1);
+<<<<<<< HEAD
 
+=======
+>>>>>>> d1dc05e2601e343d8166c65a1f57f51f76d25d9c
 va_start(arg_list, format);
 /*Calling parser function*/
 printed_chars = parser(format, f_list, arg_list);
